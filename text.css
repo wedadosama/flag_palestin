@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+     margin: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(4, 78, 18); 
+
+}
+.container{
+    background-color: rgb(203, 203, 203);
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.balck{
+    height: 100px;
+    width: 600px;
+    background-color: black;
+}
+.white{
+    height: 100px;
+    width: 600px;
+    background-color: white;
+
+}
+.green{
+    height: 100px;
+    width: 600px;
+    background-color: green;
+}
+.red{
+    height: 0px;
+    width: 0px;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid red;
+    border-top: 150px solid transparent;
+    position: absolute;
+
+}
